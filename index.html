@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="src/style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🍝 Italian Cuisine</title>
+  </head>
+  <body>
+    <div class="bodytext">
+      <h1>Italian Cuisine</h1>
+      <h2>
+        Learn about <u> Italian Cuisine</u>
+        <br />
+        and get access to my favorite recipes!
+      </h2>
+      <hr class="blackLine" />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/184/original/Italian_Cuisine.jpeg?1697638099"
+        alt="Marinara Pasta"
+      />
+      <hr class="blackLine" />
+      <p>
+        <strong> Italian cuisine </strong> (Italian: <em>cucina italiana</em>)
+        is a Mediterranean cuisine[1] consisting of the ingredients, recipes and
+        cooking techniques developed across the Italian Peninsula and later
+        spread around the world together with waves of Italian diaspora. Some of
+        these foods were imported from other cultures. <br /><br />
+        Italian cuisine offers an <u>abundance of taste</u>, and is one of the
+        most popular and copied around the world. One of the main
+        characteristics of Italian cuisine is its <u>simplicity</u>, with many
+        dishes made up of few ingredients, and therefore Italian cooks often
+        rely on the quality of the ingredients, rather than the complexity of
+        preparation.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Italian_cuisine" target="_blank">
+        Read on Wikipedia
+      </a>
+      <button class="d-flex">Get free italian recipes here!</button>
+      <div class="authorship">
+        This project was coded by
+        <a href="https://github.com/sophiabollmann" target="_blank">
+          Sophia Bollmann</a
+        >
+      </div>
+    </div>
+    <script>
+      function getInfo() {
+        let name = prompt("What is your name?");
+        let email = prompt("What email address can we contact you at?");
+
+        if (name.length > 0 && email.length > 0) {
+          alert("Thank you, " + name + ". We'll be in touch at " + email);
+        } else {
+          alert("Sorry, we were not able to get your info 😔");
+        }
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", getInfo);
+    </script>
+  </body>
+</html>

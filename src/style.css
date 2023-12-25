@@ -1,0 +1,75 @@
+body {
+  background: radial-gradient(
+    905px at 4.9% 85.8%,
+    rgb(255, 243, 242) 0.1%,
+    rgb(255, 247, 220) 57.6%
+  );
+}
+h1 {
+  color: #e70200;
+  text-align: center;
+  font-size: 48px;
+}
+h2 {
+  text-align: center;
+  border: 1px solid #e70200;
+  border-radius: 4px;
+  padding: 15px;
+  font-size: 16px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+p {
+  text-align: justify;
+  line-height: 1.5;
+  margin: 20px 0 10px;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 8px 5px;
+  color: white;
+  background: #e70200;
+  border: 1px solid #e70200;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px;
+}
+button:hover {
+  cursor: pointer;
+  color: #e70200;
+  background: transparent;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bodytext {
+  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background: #fffdf6;
+  max-width: 600px;
+  margin: 60px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+  padding: 30px;
+}
+.authorship {
+  text-align: center;
+}
+.blackLine {
+  border-top: 1px solid #fff7dc;
+}
